@@ -1,0 +1,44 @@
+@theme : #E93C42;
+@color1 : #FF750B;
+@color2: #580855;
+@color3:#32323a;
+@headline : #282825;
+@paragraph : #71716C;
+@black : #000;
+@white : #fff;
+
+
+body {
+	font-weight: 400;
+	font-size: 14px;
+	-webkit-font-smoothing: antialiased;
+
+	::selection{
+		background: @theme;
+		color: #fff;
+	}
+	::-moz-selection {
+		background: @theme;
+		color: #fff;
+	}
+	a {
+		color: #333333;
+		cursor: pointer;
+		&:hover {
+			color: darken(@theme, 10%);
+			text-decoration: none;
+		}
+	}
+	h2 {
+		color: @black;
+	}
+
+	h3,h4,h5,h6 {
+		font-weight: 500;
+		color: @headline;
+	}
+	p {
+		font-size: 14px;
+		line-height: 1.5;
+	}	
+}
