@@ -1,6 +1,5 @@
 #CANDY GUIDE
-___
+All development for Candy Guide Apps.
 
-Landing Page for Candy Guide Apps.
 
 This is for HackademyKL2014
