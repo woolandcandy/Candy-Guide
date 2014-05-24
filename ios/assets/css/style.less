@@ -1,0 +1,33 @@
+@theme : #E93C42;
+@color1 : #FF750B;
+@color2: #580855;
+@color3:#32323a;
+@headline : #282825;
+@paragraph : #71716C;
+@black : #000;
+@white : #fff;
+
+
+.title {
+	background-color: @theme;
+	color:white;
+	padding-top:20px;
+	margin-bottom: 20px;
+}
+
+.content {
+	background-color: @color3;
+}
+
+.bar-nav ~ .content {
+	padding-top: 64px;
+}
+
+.bar-tab {
+	border-top: 0;
+	.tab-item {
+		background-color: @theme;	
+		color:white;
+		&.active { color: @color3;}	
+	}
+}
