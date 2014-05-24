@@ -52,3 +52,9 @@ group :development do
   gem 'pry-byebug'
 end
 
+group :production do
+  # Use to manage environment variables
+  # Read more: https://github.com/bkeepers/dotenv
+  gem 'dotenv-rails'
+end
+
