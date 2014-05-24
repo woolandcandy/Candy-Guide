@@ -1,0 +1,29 @@
+# == Schema Information
+#
+# Table name: cities
+#
+#  id          :integer          not null, primary key
+#  name        :string(255)      not null
+#  description :text             not null
+#  image       :string(255)      not null
+#  latitude    :decimal(10, 6)   not null
+#  longitude   :decimal(10, 6)   not null
+#  created_at  :datetime
+#  updated_at  :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  image: MyString
+  latitude: 9.99
+  longitude: 9.99
+
+two:
+  name: MyString
+  description: MyText
+  image: MyString
+  latitude: 9.99
+  longitude: 9.99
