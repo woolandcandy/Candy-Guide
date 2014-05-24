@@ -14,3 +14,9 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore config file
+/config/database.yml
+
+# Ignore ruby version file
+.ruby-version
